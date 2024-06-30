@@ -4,105 +4,76 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Block vs Inline Elements</title>
-<style>
-  .divblock {
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-</style>
+	<style>
+		.border{
+		border:1px solid black;
+			
+		}
+	</style>
 </head>
 <body>
-  <!-- Button element -->
- <!-- Button element -->
-<div class="divblock">
-  <div>
+	<!-- button-inline -->
+<div class="border">
     <button data-ns-test="block-inline-button">Test1</button>
     <button data-ns-test="block-inline-button">Test2</button>
+    Answer: Inline
 </div>
-  Answer: Inline
+<!-- div-block -->
+	<div class="border">
+    <div data-ns-test="block-inline-div">Test1</div>
+    <div data-ns-test="block-inline-div">Test2</div>
+    Answer: Block
 </div>
-
-  <!-- Div element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-div">
-      <div>Test1</div>
-      <div>Test2</div>
-    </div>
-    <p>Answer: Block</p>
-  </div>
-
-  <!-- Span element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-span">
-      <span>Test1</span>
-      <span>Test2</span>
-    </div>
-    <p>Answer: Inline</p>
-  </div>
-
-  <!-- Paragraph element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-p">
-      <p>Test1</p>
-      <p>Test2</p>
-    </div>
-    <p>Answer: Block</p>
-  </div>
-
-  <!-- Input element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-input">
-      <input type="text" value="Test1">
-      <input type="text" value="Test2">
-    </div>
-    <p>Answer: Inline</p>
-  </div>
-
-  <!-- Cite element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-cite">
-      <cite>Test1</cite>
-      <cite>Test2</cite>
-    </div>
-    <p>Answer: Inline</p>
-  </div>
-
-  <!-- Code element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-code">
-      <code>Test1</code>
-      <code>Test2</code>
-    </div>
-    <p>Answer: Inline</p>
-  </div>
-
-  <!-- H1 element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-h1">
-      <h1>Test1</h1>
-      <h1>Test2</h1>
-    </div>
-    <p>Answer: Block</p>
-  </div>
-
-  <!-- Superscript element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-sup">
-      <sup>Test1</sup>
-      <sup>Test2</sup>
-    </div>
-    <p>Answer: Inline</p>
-  </div>
-
-  <!-- Subscript element -->
-  <div class="divblock">
-    <div data-ns-test="block-inline-sub">
-      <sub>Test1</sub>
-      <sub>Test2</sub>
-    </div>
-    <p>Answer: Inline</p>
-  </div>
-
+	<!-- span-inline -->
+	<div class="border">
+    <span data-ns-test="block-inline-span">Test1</span>
+    <span data-ns-test="block-inline-span">Test2</span>
+    Answer: inline
+</div>
+	<!-- p-block -->
+	<div class="border">
+    <p data-ns-test="block-inline-p">Test1</p>
+    <p data-ns-test="block-inline-p">Test2</p>
+    Answer: Block
+</div>
+	<!-- input-inline -->
+	<div class="border">
+    <input data-ns-test="block-inline-input">Test1</input>
+    <input data-ns-test="block-inline-input">Test2</input>
+    Answer: Inline
+	</div>
+	<!-- cite-inline -->
+	<div class="border">
+    <cite data-ns-test="block-inline-cite">Test1</cite>
+    <cite data-ns-test="block-inline-cite">Test2</cite>
+    Answer: Inline
+</div>
+	<!-- code-inline -->
+	<div class="border">
+    <code data-ns-test="block-inline-code">Test1</code>
+    <code data-ns-test="block-inline-code">Test2</code>
+    Answer: Inline
+</div>
+	<!-- H1-block -->
+	<div class="border">
+    <h1 data-ns-test="block-inline-h1">Test1</h1>
+    <h1 data-ns-test="block-inline-h1">Test2</h1>
+    Answer: Block
+</div>
+	<!-- sup-inline -->
+	<div class="border">
+    <sup data-ns-test="block-inline-sup">Test1</sup>
+    <sup data-ns-test="block-inline-sup">Test2</sup>
+    Answer: Inline
+</div>
+	<!-- sub-inline -->
+	<div class="border">
+    <sub data-ns-test="block-inline-sub">Test1</sub>
+    <sub data-ns-test="block-inline-sub">Test2</sub>
+    Answer: Block
+</div>
 </body>
 </html>
+
+
+
